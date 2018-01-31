@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rhtjrghmail.seoullandmark.SixtythreeBuildingEditActivity"
+    tools:ignore="Orientation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:id="@+id/HomeButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            app:srcCompat="@drawable/ic_home_black_24dp"
+            tools:ignore="VectorDrawableCompat"
+            android:background="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:textColor="#000000"
+            android:text="History"
+            android:background="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:textColor="#0b95f1"
+            android:textStyle="bold"
+            android:text="경희궁"
+            android:background="#fff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#0b95f1"
+        >
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="400">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:background="#ecfffe"
+            >
+            <ImageView
+                android:id="@+id/sixtythreeBuildingImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/gyeonghuigung" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0b95f1"
+            android:layout_weight="0.993">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:background="#fff">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:text="역사"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#000000"
+                        android:text="경희궁의 원래 이름은 경덕궁(慶德宮)이었으나, 영조가 1760년(영조 36년)에 궁궐 이름인 '경덕(慶德)'이 원종의 시호인 '경덕(敬德)'과 음이 같다고 하여 '경희궁'으로 고친 것이다.[2]
+
+경덕궁터는 인조의 아버지인 원종(정원군)의 사저가 있던 곳이다.[2] 광해군은 임진왜란 뒤 재건된 창덕궁으로 들어가기를 꺼리고, 인왕산 아래 새 궁궐인 인경궁(仁慶宮)을 짓다가 정원군의 집에 왕기가 서렸다는 풍수설을 믿고 왕기를 누르기 위하여 그의 집을 빼앗아 1617년(광해군 6년)~1623년(광해군 15) 사이에 경덕궁을 세웠다.[2] 그러나 1623년 인조 반정으로 광해군이 폐위되면서 경덕궁을 쓰지 못하였다.[2] 인조가 즉위한 뒤에 창덕궁이 소실되고, 이괄의 난으로 창경궁마저 불타버리자 인목대비를 받들어 이 궁궐로 이어하였다.[2] 이 곳에서 숙종이 태어났고, 숭정문에서는 경종, 정조, 헌종이 즉위하였으며, 숙종, 영조, 순조가 승하하였다.[2]
+
+경희궁은 경복궁 서쪽에 세워진 까닭으로 서궐(西闕)로 불렸고, 이 밖에도 새문안 대궐, 야주개 대궐, 새문동 대궐 등으로 불렸다.[2] 경희궁은 순조 29년(1829년) 10월 화재로 인하여 전각 대부분이 소실된 것을 1831년에 중건하였다.[2]
+
+일제가 일본인 학교인 경성중학교를 궁궐의 서쪽에 세우면서, 경희궁의 많은 전각들은 헐리거나 다른 곳으로 옮겨졌다.[2] 정전인 숭정전은 일본의 한 불교 종파인 조동종의 조계사 본전으로 쓰기 위해 1926년 남산 기슭으로 이건되었다가 지금은 동국대학교의 법당인 정각원으로 쓰이고 있다.[2] 흥정당은 1928년 광운사로 이건되었으며, 관사대(觀射臺)는 사직단 뒤로 이건되어[2] 현재 황학정(黃鶴亭)으로 쓰이고 있다.[3] 흥화문은 1932년에 이토 히로부미의 사당인 박문사의 문으로 쓰였다가 1945년 해방과 더불어 폐사되고, 이후 신라호텔 정문으로 쓰이다가, 1988년 지금의 위치(계양문:남문)로 다시 옮겨졌다. 본래의 위치는 구세군회관 자리이다. [3]
+
+경희궁터는 광복 후에 서울중ㆍ고등학교로 쓰이다가 1980년 6월 서울고등학교가 강남으로 이전하면서 현대건설에 매각되었다.[3] 그 뒤 서울특별시에서 이 터를 매입하여 사적 제271호로 지정하였으나, 서울시의회에서 경희궁 복원비용에 대한 문제점을 제기하면서 복원공사는 중지되었다. 시에서 경희궁터에 서울역사박물관을 세우면서 다시 훼손되었다. 창건당시의 경희궁 규모는 무덕문지(북문)의 유구가 발견된 대한축구협회, 성곡미술관, 일조각출판사, 내수동교회, 구세군회관, 서울시교육청, 서울복지재단을 모두 경희궁지였으며, 기상청 서울관측소 일부도 포함되는 것으로 추측된다.[3]
+
+2013년 1월, 서울특별시청과 종로구청은 경희궁지 종합정비기본계획을 문화재청에 제출하였다. 제출된 계획은 문화재청과 서울특별시 공동으로 2014년부터 2023년까지 경희궁 2차 복원이 진행되는 것을 소재로 하고 있다. 경희궁 복원 예산은 국가 예산 70%, 서울특별시 예산 30%가 투입될 예정이다. 정문인 흥화문을 원위치로 복원하며, 방공호를 철거한 후 융복전과 회상전을 복원할 계획이다. 또한 서울시립 경희궁미술관을 철거한 후 흥정당을 복원하며, 현재 성곡미술관 주변에 남아있는 궁장을 포함하여 경희궁 궁장이 일부 복원된다. 2단계에서는 서울역사박물관 이전과 궁지 내 민간 건물 매입이 추진된다.[4]"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        />
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#ffffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#0b95f1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#ffffff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/GyeonghuigungShortTextButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:background="#fff"
+            app:srcCompat="@drawable/ic_short_text_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/GyeonghuigungEditButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:background="#fff"
+            app:srcCompat="@drawable/ic_edit_blue_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/GyeonghuigungLinkButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:background="#fff"
+            app:srcCompat="@drawable/ic_link_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#0b95f1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#0b95f1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#0b95f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.8"
+                android:background="#fff"
+                app:srcCompat="@drawable/ic_phone_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.2"
+                android:textColor="#000000"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:text="02-724-0274"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:background="#fff"
+                app:srcCompat="@drawable/ic_location_on_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:gravity="center_vertical"
+                android:text="서울특별시 종로구 사직동 새문안로 45"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

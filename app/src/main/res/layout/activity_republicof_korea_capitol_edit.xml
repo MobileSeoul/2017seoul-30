@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rhtjrghmail.seoullandmark.SixtythreeBuildingEditActivity"
+    tools:ignore="Orientation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:id="@+id/HomeButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            app:srcCompat="@drawable/ic_home_black_24dp"
+            tools:ignore="VectorDrawableCompat"
+            android:background="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:textColor="#000000"
+            android:text="Etc"
+            android:background="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:textColor="#0b95f1"
+            android:textStyle="bold"
+            android:text="국회의사당"
+            android:background="#fff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#0b95f1"
+        >
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="400">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:background="#ecfffe"
+            >
+            <ImageView
+                android:id="@+id/sixtythreeBuildingImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/republicofkoreacapitol" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0b95f1"
+            android:layout_weight="0.993">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:background="#fff">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:text="국회의사당"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#000000"
+                        android:text="여의도의 총 면적 80만평 중에서 국회의사당 부지는 10만평을 차지하고 있다. 건물면적은 2만 4636평으로, 지하 2층, 지상 6층 규모로 길이 122미터, 폭 81미터이다. 철근콘크리트조 건물로서, 단일 의사당 건물로는 동양에서 제일 크다.
+
+화강암 팔각기둥 24개가 건물을 받치고 있는데, 이것은 우리나라의 24절기를 뜻하며 , 가운데에는 밑지름 64미터의 돔 형태의 지붕으로 덮여 있는데, 이것은 국민의 다양한 의견들이 찬반토론을 거쳐 하나의 결론을 내린다는 의회민주정치의 본질을 상징한다고 한다.
+
+장차 통일이 되어 국회의원 정원이 늘어날 경우에 대비해, 국회 본회의장은 좌석이 이동식으로 되어 있어 최대 400석까지 확장할 수 있다.
+
+또한 양원제 실시를 대비하여 설계되었으며, 현재의 본회의장은 민의원 본회의장이 되며, 현재 예산결산특별심의회 회의실은 참의원 본회의장으로(의석 100석) 쓰이게 된다.
+
+회의가 열리는 국회의사당 본관 앞에는 의원회관, 국회 도서관, 헌정기념관 등의 건물이 있다.
+
+국회의사당은 전 지역이 대한민국 국방부 훈령상의 '가'급 국가중요시설로 분류되어 있어 대한민국 경찰에서 상시 경비를 맡고 있다.
+
+2009년 8월 23일 故김대중 전 대통령의 국장을 치르면서 국회의사당 마당 앞에서 사용하기도 하였다."
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#ffffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#0b95f1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#ffffff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/RepublicofKoreaCapitolShortTextButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:background="#fff"
+            app:srcCompat="@drawable/ic_short_text_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/RepublicofKoreaCapitolEditButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:background="#fff"
+            app:srcCompat="@drawable/ic_edit_blue_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/RepublicofKoreaCapitolLinkButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:background="#fff"
+            app:srcCompat="@drawable/ic_link_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#0b95f1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#0b95f1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#0b95f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.8"
+                android:background="#fff"
+                app:srcCompat="@drawable/ic_phone_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.2"
+                android:textColor="#000000"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:text="02-788-2114"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:background="#fff"
+                app:srcCompat="@drawable/ic_location_on_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:gravity="center_vertical"
+                android:text="서울특별시 영등포구 여의도동 의사당대로 1"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rhtjrghmail.seoullandmark.SixtythreeBuildingEditActivity"
+    tools:ignore="Orientation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:id="@+id/HomeButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            app:srcCompat="@drawable/ic_home_black_24dp"
+            tools:ignore="VectorDrawableCompat"
+            android:background="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:textColor="#000000"
+            android:text="History"
+            android:background="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:textColor="#0b95f1"
+            android:textStyle="bold"
+            android:text="남산골한옥마을"
+            android:background="#fff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#0b95f1"
+        >
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="400">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:background="#ecfffe"
+            >
+            <ImageView
+                android:id="@+id/sixtythreeBuildingImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/namsanhanokmaeul" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0b95f1"
+            android:layout_weight="0.993">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:background="#fff">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:text="개요"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#000000"
+                        android:text="본래 수도방위사령부(수방사) 부지로 군사보호구역이었던 곳이었으나 1989년 남산 제모습 찾기사업에 따라 서울시가 수방사와 합의하에 이 부지를 인수하고 군사보호구역에서 해제되면서 서울시 민속자료와 한옥 5개동을 복원하여 1998년 공식 개장하였다. 매년 전통혼례, 세시축제, 민속행사와 다양한 체험 프로그램을 진행한다."
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:text="지역 설명"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#000000"
+                        android:text="한옥마을이 들어선 필동 지역은 조선시대에는 흐르는 계곡과 천우각이 있어서 여름철 피서를 겸한 놀이터로 이름있던 곳이다. 또한 청학이 노닐었다고 하여 청학동으로도 불렸다. 청학동은 신선이 사는 곳으로 불릴 만큼 경관이 아름다워 한양에서 가장 경치 좋은 삼청동, 인왕동, 쌍계동, 백운동과 더불어 한양 5동으로 손꼽히던 곳이다. 이곳의 옛 정취를 되살려 시민들에게 제공하기 위하여 골짜기를 만들고 물을 흐르게 하였으며, 정자를 짓고, 나무를 심어 전통정원을 조성하였다."
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        />
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#ffffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#0b95f1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#ffffff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/NamsangolHanokVillageShortTextButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:background="#fff"
+            app:srcCompat="@drawable/ic_short_text_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/NamsangolHanokVillageEditButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:background="#fff"
+            app:srcCompat="@drawable/ic_edit_blue_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/NamsangolHanokVillageLinkButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:background="#fff"
+            app:srcCompat="@drawable/ic_link_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#0b95f1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#0b95f1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#0b95f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.8"
+                android:background="#fff"
+                app:srcCompat="@drawable/ic_phone_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.2"
+                android:textColor="#000000"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:text="02-2261-0500"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:background="#fff"
+                app:srcCompat="@drawable/ic_location_on_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:gravity="center_vertical"
+                android:text="서울특별시 중구 필동2가 퇴계로34길 28"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

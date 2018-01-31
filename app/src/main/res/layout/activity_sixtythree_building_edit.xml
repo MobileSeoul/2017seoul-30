@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.rhtjrghmail.seoullandmark.SixtythreeBuildingEditActivity"
+        tools:ignore="Orientation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageButton
+                android:id="@+id/HomeButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                app:srcCompat="@drawable/ic_home_black_24dp"
+                tools:ignore="VectorDrawableCompat"
+                android:background="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:textColor="#000000"
+                android:text="Tower"
+                android:background="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:textColor="#0b95f1"
+                android:textStyle="bold"
+                android:text="63빌딩"
+                android:background="#fff"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#0b95f1"
+            >
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="400">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:background="#ecfffe"
+                >
+                <ImageView
+                    android:id="@+id/sixtythreeBuildingImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/sixtytreebuilding" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0b95f1"
+                android:layout_weight="0.993">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:background="#fff">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:id="@+id/edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:text="건설"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#000000"
+                            android:text="대한생명 63빌딩이라는 명칭으로 1979년에 기공식이 열리고 1980년 2월에 착공하였다. 1981년 2월 14일 당시 건축법에 따라 허가되었고 1983년 5월에 40층 이상 골조공사가 진행되고 1983년 11월 5일에 상량식을 마쳤다. 1984년 7월 3일에 외벽공사가 끝났고 12월 18일에 임대가 시작되었고 1985년 5월에 완공되었다."
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:text="개장 및 기타"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#000000"
+                            android:text="이후 1985년 7월 5일에 임시개장을 했고 준공식은 같은 해 7월 27일에 전면개장을 했고[2] 9월 30일에 열렸다. 완공 당시 일본 도쿄의 선샤인 60빌딩을 제치면서 북아메리카를 제외했을 때 세계에서 가장 높은 빌딩이었으며, 1987년 싱가포르에 OUB 센터가, 1990년 홍콩에 중국은행 타워가 건설되기 전까지는 아시아에서 제일 높은 빌딩이었다. 1988년 서울올림픽 당시 63빌딩 앞 봉화대에서 성화를 밝히면서 세계적으로 유명해졌다고 한다. 2002년에 대한생명(현 한화생명)이 한화그룹에 인수, 편입되면서 63빌딩도 역시 한화그룹의 소유가 되었다. 총대지면적은 21,430m2(6,483평), 연건평은 166,097m2(50,305평)이다.
+
+리모델링은 1단계 ~ 2단계에서 진행된 63빌딩 새단장 내용을 살펴보면 노후화된 설비, 고객 동선 개선, 지하 1층 MD 및 본관 로비, 별관 노후설지 교체, 옥외 조경시설 개성 등이며, 특히 안전성 확보 목적으로 외벽 유리 총 13,944장을 2단계 공사 때 전면 교체하였다. 1단계는 2005년 2월에 공사를 시작하여 2009년 7월에 완료되었고 2단계는 2010년 3월에 공사를 시작하였다. 2012년에 63빌딩 21층과 38층에 피난안전구역을 개방했고 2013년 4월에 새롭게 단장했다. 2단계는 2013년 5월에 완료되었고 3단계는 2011년 7월에 공사를 시작하였고 2014년 1월 12일에 2중바닥재공사를 하였고 카펫타일공사는 같은 해 1월 18일에 했다. 2015년 5월에는 63빌딩이 30주년을 맞이하여 63레스토랑 개관 30주년 기념 30% 특별 할인 이벤트가 있었다. 2016년 7월에 3단계의 공사가 완료되었다."
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:text="특징"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#000000"
+                            android:text="63빌딩 개발 당시 대한민국 최초 랜드마크 빌딩이다. 서울 최초 랜드마크 빌딩이며 60층 최초 랜드마크 빌딩이다. 대한민국을 대표하는 랜드마크 빌딩, 한강과 남산 그리고 서울전경이 보이는 조망권, 지진 및 충경 내진설계와 레이아웃을 효율적으로 설계, 출입 및 보안 등 원격 통제 시스템 완비, 빌딩내 편의시설 다수 입점(식당,병원,안경점,우체국 등)이 있다.
+
+영어로 된 한화라는 간판이 있고 유리는 황금색이다. 대한생명 브랜드 슬로건에는 Love your life, Love your dream이라고 써져있다. 총 13,516장(보통유리 포함 14,182장)의 황금색 이중 반사유리로 둘러싸여 있다. 외벽을 둘러싸고 있는 황금색 이중 반사유리는 반사율 45%, 투과율 17∼21%로 보온과 단열기능이 뛰어나 30%에 이르는 열에너지 절약효과가 있으며 특히 태양의 각도와 기온에 따라 은색, 노랑색, 황금색, 적색으로 변하는 특징을 갖고 있다. 또한 63빌딩의 황금색 유리는 초속 40m의 강한 풍속과 기압에도 견딜 수 있도록 설계되어 있다. 해발 265m인 남산보다 1m 낮다.
+
+4∼19층, 23∼37층 및 40∼53층은 일반사무실용, 나머지는 사무실 기능을 보조하는 각종 부대시설과 전망대·수족관 등 초고층건물의 이점을 상술에 이용한 관광공간을 마련한 점이 특징이다. 건물구조는 전체가 탄력성을 지녀 초속 30m 내외의 태풍이나 진도 7 정도의 지진을 만났을 때, 좌우 진동의 유연성은 60cm, 상층부가 바람에 의해 움직이는 범위는 좌우 40cm인데 이는 내부의 사람이 느낄 수 없는 흔들림이다.
+
+첨단기술의 빌딩 자동관리 시스템을 도입, 건물 내의 이상이나 화재 발생 시에는 컴퓨터에 체크되어 중앙관제실과 방재센터에서 통제하게 되어 있다. 관광용 시설로는 전망대(63골든타워), 특수시설물로는 수족관(63씨월드), 인간의 시야를 극대화한 I MAX (24×20m의 초대형 화면) 영화관이 있다. 이 건물은 완공 당시 우리나라에서 가장 높은 초고층 빌딩이다. 일단 높고 건물이 높아서 바람이 심하게 불때마다 조금씩 흔들리지만 경치가 좋다. 지하층을 포함하여 전체 높이가 63층, 249m인 서울에서 가장 높은 건물로서 여의도와 서울의 랜드마크다."
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            />
+
+                    </LinearLayout>
+
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="0.3"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="0.3"
+                android:background="#0b95f1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="0.3"
+                android:background="#ffffff"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/SixtythreeBuildingShortTextButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:background="#fff"
+                app:srcCompat="@drawable/ic_short_text_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageButton
+                android:id="@+id/SixtythreeBuildingEditButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:background="#fff"
+                app:srcCompat="@drawable/ic_edit_blue_24dp"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageButton
+                android:id="@+id/SixtythreeBuildingLinkButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:background="#fff"
+                app:srcCompat="@drawable/ic_link_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="0.3"
+                android:background="#0b95f1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="0.3"
+                android:background="#0b95f1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="0.3"
+                android:background="#0b95f1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#fff"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.8"
+                    android:background="#fff"
+                    app:srcCompat="@drawable/ic_phone_black_24dp"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.2"
+                    android:textColor="#000000"
+                    android:gravity="center_vertical"
+                    android:textSize="12sp"
+                    android:text="02-789-5663"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:background="#fff"
+                    app:srcCompat="@drawable/ic_location_on_black_24dp"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:gravity="center_vertical"
+                    android:text="서울특별시 영등포구 여의도동 63로 50"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>

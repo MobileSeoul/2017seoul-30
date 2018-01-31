@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rhtjrghmail.seoullandmark">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="서울 랜드마크"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".StartActivity"
+            android:label="서울 랜드마크">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainSelectActivity" />
+        <activity android:name=".MainKind1Activity" />
+        <activity android:name=".AllActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".TowerActivity" />
+        <activity android:name=".ParkActivity" />
+        <activity android:name=".GodActivity" />
+        <activity android:name=".EnjoyActivity" />
+        <activity android:name=".EtcActivity" />
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".SixtythreeBuildingShortTextActivity" />
+        <activity android:name=".SixtythreeBuildingEditActivity" />
+        <activity android:name=".SixtythreeBuildingLinkActivity" />
+        <activity android:name=".NSeoulTowerShortTextActivity" />
+        <activity android:name=".NSeoulTowerEditActivity" />
+        <activity android:name=".NSeoulTowerLinkActivity" />
+        <activity android:name=".GardenFiveShortTextActivity" />
+        <activity android:name=".GardenFiveEditActivity" />
+        <activity android:name=".GardenFiveLinkActivity" />
+        <activity android:name=".GyeongbokgungShortTextActivity" />
+        <activity android:name=".GyeongbokgungEditActivity" />
+        <activity android:name=".GyeongbokgungLinkActivity" />
+        <activity android:name=".GyeonghuigungShortTextActivity" />
+        <activity android:name=".GyeonghuigungEditActivity" />
+        <activity android:name=".GyeonghuigungLinkActivity" />
+        <activity android:name=".NamsangolHanokVillageShortTextActivity" />
+        <activity android:name=".NamsangolHanokVillageEditActivity" />
+        <activity android:name=".NamsangolHanokVillageLinkActivity" />
+        <activity android:name=".RepublicofKoreaCapitolShortTextActivity" />
+        <activity android:name=".RepublicofKoreaCapitolEditActivity" />
+        <activity android:name=".RepublicofKoreaCapitolLinkActivity" />
+        <activity android:name=".MakerActivity" />
+        <activity android:name=".VersionActivity"></activity>
+    </application>
+
+</manifest>

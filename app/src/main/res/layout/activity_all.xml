@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.rhtjrghmail.seoullandmark.MainSelectActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+        <ImageButton
+            android:id="@+id/HomeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_weight="0.3"
+            android:background="#fff"
+            app:srcCompat="@drawable/ic_home_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_weight="0.4"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:text="서울 랜드마크"/>
+
+        <ImageButton
+            android:id="@+id/InfoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_weight="0.3"
+            android:background="#fff"
+            app:srcCompat="@drawable/ic_info_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#00aaff"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+        <Button
+            android:id="@+id/kind1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:background="#fff"
+            android:text="분류"
+            />
+
+        <Button
+            android:id="@+id/kind2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:background="#fff"
+            android:text="이름"
+            />
+
+        <Button
+            android:id="@+id/kind3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="0.3"
+            android:background="#fff"
+            android:text="추가"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#00aaff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#00aaff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="전체"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#00aaff"
+                />
+
+
+            <Button
+                android:id="@+id/activity_all_HistoryButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="역사"
+                />
+
+            <Button
+                android:id="@+id/activity_all_TowerButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="타워"
+                />
+
+            <Button
+                android:id="@+id/activity_all_ParkButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="공원"
+                />
+
+            <Button
+                android:id="@+id/activity_all_GodButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="종교"
+                />
+
+            <Button
+                android:id="@+id/activity_all_EnjoyButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="흥미"
+                />
+
+            <Button
+                android:id="@+id/activity_all_EtcButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="기타"
+                />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/SixtythreeBuildingButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:text="63빌딩"
+                    />
+
+                <Button
+                    android:id="@+id/NSeoulTowerButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:text="N서울타워"
+                    />
+
+                <Button
+                    android:id="@+id/GardenFiveButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:text="가든파이브"
+                    />
+
+                <Button
+                    android:id="@+id/GyeongbokgungButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:text="경복궁"
+                    />
+
+                <Button
+                    android:id="@+id/GyeonghuigungButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:text="경희궁"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:text="광화문광장"
+                    />
+
+
+                <Button
+                    android:id="@+id/NamsangolhanokvillageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:text="남산골한옥마을"
+                    />
+
+                <Button
+                    android:id="@+id/RepublicofKoreaCapitolButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:text="대 국회의사당"
+                    />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
